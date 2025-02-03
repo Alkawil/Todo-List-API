@@ -3,9 +3,11 @@ A RESTful API built with Flask for managing a Todo List application. Users can r
 
 ## Features
 
-- **User Authentication**: Register and login users with JWT tokens.
-- **CRUD Operations**: Perform Create, Read, Update, and Delete operations on todo items.
-- **SQLite Database**: Stores user and todo data.
+- **RESTful API**: The API follows REST principles to manage resources (todos) using standard HTTP methods.
+- **User Authentication**: Users can register and login with JWT (JSON Web Token) for secure access to their todo data.
+- **CRUD Operations**: Perform **Create**, **Read**, **Update**, and **Delete** operations on todo items.
+- **SQLite Database**: The data is stored in a lightweight SQLite database, which is easily scalable and manageable for small applications.
+- **Data Modeling**: The app uses **Flask-SQLAlchemy** to define models for `User` and `Todo` entities, creating relationships between users and their todo items.
 
 ## Technologies Used
 
